@@ -7,13 +7,14 @@ import static org.junit.Assert.*;
 
 public class CarOwnerTest {
 
+    public static final String JOHN_DOE = "John Doe";
     private Car car;
     private String johnDoe;
 
     @Before
     public void setUp() throws Exception {
         car = new Car("Beetle");
-        johnDoe = "John Doe";
+        johnDoe = JOHN_DOE;
     }
 
     @Test

@@ -7,11 +7,12 @@ import static org.junit.Assert.assertEquals;
 
 public class CarTest {
 
+    public static final String BEETLE = "Beetle";
     private String beetle;
 
     @Before
     public void setUp(){
-        beetle = "Beetle";
+        beetle = BEETLE;
     }
 
     @Test
