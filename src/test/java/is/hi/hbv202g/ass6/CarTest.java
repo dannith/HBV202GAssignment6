@@ -7,18 +7,13 @@ import static org.junit.Assert.assertEquals;
 
 public class CarTest {
 
-    public static final String BEETLE = "Beetle";
-    private String beetle;
 
-    @Before
-    public void setUp(){
-        beetle = BEETLE;
-    }
+    public static final String BEETLE = "Beetle";
 
     @Test
     public void getNameOfCar() {
-        Car car=new Car(beetle);
-        assertEquals(beetle, car.getName());
+        Car car=new Car(BEETLE);
+        assertEquals(BEETLE, car.getName());
     }
 
 }
